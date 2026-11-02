@@ -1,32 +1,36 @@
 # Project Jade Online Playtest
 
-## Download
+## 最新下載 / Current download
 
-**[Download ProjectJadeOnlineSetup-Phase35.exe](https://github.com/NickHOI/ProjectJade-Online-Playtest/releases/download/phase3.5-online-playtest/ProjectJadeOnlineSetup-Phase35.exe)**
+**[下載單一 Windows 安裝檔 · Source176](https://github.com/NickHOI/ProjectJade-Online-Playtest/releases/download/phase35-detailfinish1-source176/ProjectJadeOnlineSetup-Phase35-Source176-D53945F2.exe)**
 
-This single Windows installer is the only file either player needs. No manual ZIP extraction is required.
+內含完整遊戲，唔需要手動解壓 ZIP。兩位玩家都要安裝今次同一版本；如果其中一部電腦已有同一份安裝檔，就唔使再下載。
 
-> Updated after the 2026-09-09 two-human test: this build fixes a lost Session-admission completion that could leave both players waiting. It also shows staged connection progress and automatically recovers the waiting lease.
+[本次版本說明及核對範圍](https://github.com/NickHOI/ProjectJade-Online-Playtest/releases/tag/phase35-detailfinish1-source176)
 
-## Host
+## 使用方法
 
-1. Run the installer once.
-2. Double-click **Project Jade Host** on the desktop.
-3. Create a private Workshop and send the displayed room code to the other permanent partner.
+1. 關閉舊遊戲同啟動器，開啟 EXE，按 **INSTALL／安裝**。
+2. 完成後開桌面 **Project Jade Online**。
+3. A 選 **OPEN A ROOM**，再於遊戲選 **OPEN PRIVATE ROOM**，將房間代碼交畀另一位永久夥伴。
+4. B 選 **JOIN WITH A CODE**，輸入代碼加入。兩部電腦都要上網。
 
-## Friend
+使用 Unity Lobby／Relay，正常操作唔需要 IP、VPN、路由器設定、PowerShell 或 Steam 測試分支。工坊始終只有兩位平等、永久真人夥伴；任何一位離開時，實體操作暫停，留下嗰位只可用唯讀業務畫面。測試離開及返回時，B 先離開，A 保持遊戲開住，再由 B 加入返。本機開發帳簿保存在開房電腦。
 
-1. Run the same installer once.
-2. Double-click **Project Jade Join** on the desktop.
-3. Enter the room code and join the Workshop.
+## 本次版本
 
-The connection uses Unity Lobby/Relay. Players do not enter an IP address, use a VPN, or configure port forwarding. A Workshop has exactly two permanent equal human partners. Physical play pauses when either partner disconnects, while durable Workshop state remains on the host machine.
+- 遊戲：`0.3.5-phase35-detailfinish1`（Source176）
+- Unity：`6000.5.10f1`
+- Source fingerprint：`D53945F29FE0D7989B4B4B5D4A2C8D98B2A470EF85E16399C8479016A3CC1BD9`
+- 安裝檔：145,185,280 bytes
+- SHA-256：`42EA4256B8D122E97EF06515355F87C14367727F2A8D4AE55DF7F7154D7EC137`
 
-This is a development playtest. The installer is not code-signed, so Windows may display a SmartScreen warning.
+同來源 3,489 項 Unity 測試、Windows／本機開發帳簿建置及套件核對已通過。兩部電腦嘅安裝、連線、實際畫面、聽感同兩位真人回報仍待驗證；沒有宣稱完整 Player 經濟驗收、Steam 安裝更新或正式雲端服務已通過。
 
-- Unity: `6000.5.10f1`
-- Source checkpoint: `2a0e1cab0ac8963ca4ad38e29ce5d27135998e94`
-- Installer bytes: `118403072`
-- Installer SHA-256: `04217B0AE846C34D2F9ACFDAB0113F45047BA361F245969993617D810410E150`
+安裝檔及原生啟動器目前未有代碼簽署。若 Windows 阻擋，請保留提示並回報，維持保護設定。
+
+## 歷史版本
+
+[先前 Phase 3.5 Online Playtest](https://github.com/NickHOI/ProjectJade-Online-Playtest/releases/tag/phase3.5-online-playtest) 保留作歷史版本，今次請用上方 Source176。
 
 This repository is a public download page only. Project Jade source code is not published here.
