@@ -1,30 +1,28 @@
 # Project Jade Online Playtest
 
-## 最新免費下載 · Windows
+## Windows 雙人試玩版
 
-**[下載 Project Jade 九幕教學版（2026 年 11 月 18 日）](https://github.com/NickHOI/ProjectJade-Online-Playtest/releases/download/phase35-workshop-tour-a37f4310/ProjectJadeOnlineSetup-20261118-DetailedWorkshopTour.exe)**
+**[下載最新版 Windows 安裝檔（2026 年 11 月 19 日，150.4 MB）](https://github.com/NickHOI/ProjectJade-Online-Playtest/releases/download/phase35-written-chinese-42c0e87a/ProjectJadeOnlineSetup-20261119-WrittenChinese.exe)**
 
-一個安裝檔已經包好遊戲同啟動器。兩位夥伴各自喺 Windows 電腦安裝同一版本，連上網就可以用房間代碼相約入工坊。[今次更新及安裝檔資料](https://github.com/NickHOI/ProjectJade-Online-Playtest/releases/tag/phase35-workshop-tour-a37f4310)
+《Project Jade》讓兩位固定夥伴共同經營一間翡翠工坊。從採石場選購原石，到合力搬運、檢查、打磨、鋸切與入庫，每個步驟都能在九個導覽章節中查看。兩人須同時在場才能搬運石材或操作機器，單獨登入時可查閱工坊業務資料。
 
-## 點樣同朋友開房
+本版採用繁體中文書面語，並提高遊戲內中文字體的預設字重。安裝檔內含遊戲及啟動器。[查看更新內容](https://github.com/NickHOI/ProjectJade-Online-Playtest/releases/tag/phase35-written-chinese-42c0e87a)
 
-1. 關閉舊遊戲同啟動器，開啟下載嘅 EXE，撳 **INSTALL／安裝**。
-2. 安裝完成後，開桌面嘅 **Project Jade Online**。
-3. 其中一位揀 **OPEN A ROOM**，入到遊戲撳 **OPEN PRIVATE ROOM**，將房間代碼畀另一位。
-4. 朋友揀 **JOIN WITH A CODE**，輸入代碼。兩位第一次一齊入工坊，就會開始九幕慢鏡教學。
+## 安裝及連線
 
-工坊有兩位固定夥伴。兩人一齊先可以抬石同操作機器。得返一個人時，仍然可以查看業務資料。房間使用 Unity Lobby／Relay，開房電腦保存本機開發帳簿。
+1. 兩位玩家各自在 Windows 電腦下載相同版本，關閉舊遊戲及啟動器，執行安裝檔並選擇 **INSTALL／安裝**。
+2. 安裝完成後，從桌面開啟 **Project Jade Online**。
+3. 其中一位選擇 **OPEN A ROOM／建立房間**，進入遊戲後選擇 **OPEN PRIVATE ROOM／開啟私人房間**，將房間代碼交給夥伴。
+4. 另一位選擇 **JOIN WITH A CODE／使用代碼加入**，輸入代碼並加入房間。兩位夥伴首次一同進入工坊時，遊戲會播放導覽。
 
-## 九幕教學
+導覽期間可按 **P** 暫停或繼續，按 **←／→** 切換步驟，或按 **Esc** 跳過。開啟「減少動態效果」後，導覽會使用固定鏡位。之後可從工坊的 **Esc** 選單重新播放。
 
-由採石場揀石、拆箱同合力抬石，去到驗石、打磨、上鋸、切割同入庫。按 **P** 暫停或繼續，**← / →** 前後切換，**Esc** 跳過。之前玩過嘅玩家可以按 **Esc** 開工坊選單重睇。「減少動態效果」會以定鏡逐幕顯示。
-
-**Windows 安裝提示。** 安裝檔及啟動器尚未簽署，Windows 應用程式控制有機會阻擋安裝。遇到呢個提示，請保留原有保護設定。
+連線使用 Unity Lobby 和 Relay，工坊帳簿儲存在建立房間的電腦上。安裝檔及啟動器尚未簽署，Windows 應用程式控制可能會阻止安裝。如遇到此情況，請保留原有安全設定。
 
 ## Windows download
 
-[Download the free Windows playtest](https://github.com/NickHOI/ProjectJade-Online-Playtest/releases/download/phase35-workshop-tour-a37f4310/ProjectJadeOnlineSetup-20261118-DetailedWorkshopTour.exe) on both PCs. Install it, open **Project Jade Online**, then share a private room code with your partner. The nine-chapter workshop tour starts when both partners enter for the first time. Windows application control may block this unsigned installer.
+[Download the free Windows playtest](https://github.com/NickHOI/ProjectJade-Online-Playtest/releases/download/phase35-written-chinese-42c0e87a/ProjectJadeOnlineSetup-20261119-WrittenChinese.exe) on both PCs. Install it, open **Project Jade Online**, and share a room code with your partner. The nine-chapter tour begins when both partners first enter the workshop. Windows application control may block the unsigned installer.
 
-SHA-256 `AD44AD5DB9723AC697CD4800F893FCF573230CA63FA147878841C340B1208C9E`
+SHA-256 `8423892E7543DBEF79F25A064C7DC6353E809FAEEF4D5C67DAC48CBE7E45FA97`
 
 [所有公開試玩版本](https://github.com/NickHOI/ProjectJade-Online-Playtest/releases)
